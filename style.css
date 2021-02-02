@@ -46,6 +46,16 @@
 
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
+}
+
+.regular-button:hover {
+    background-color: #ebebeb;
+}
+
+.regular-button:active {
+    background-color: #7c7c7c;
 }
 
 .regular-button:first-child {
@@ -62,6 +72,14 @@
     font-weight: bold;
 
     width: 25%;
+}
+
+.operator-button:hover {
+    background-color: #eca860;
+}
+
+.operator-button:active {
+    background-color: #f5e7d2;
 }
 
 .special-button1 {
